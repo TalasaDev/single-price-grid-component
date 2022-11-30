@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: 'Karla', sans-serif;
+  box-sizing: border-box;
+}
+
+
+/*  MOBILE DESIGN FIRST */
+
+body {
+  width: 375px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.attribution {
+  margin-top: 30px;
+}
+
+.container {
+  padding: 50px 30px;
+  background-color:hsl(204, 43%, 93%);
+  max-width: 768px;
+  width: 400px;
+  margin: auto;  
+}
+
+.hero {
+  background-color: white;
+  padding: 30px 20px;
+  margin: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.hero h1 {
+  color:hsl(179, 62%, 43%);
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+
+.hero h4 {
+  color:hsl(71, 73%, 54%);
+  margin-bottom: 20px;
+}
+
+.hero p {
+  opacity: 0.4;
+  line-height: 25px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price span {
+  margin-left: 10px;
+}
+
+.subscription {
+  background-color:hsl(179, 62%, 43%);
+  color: white;
+  padding: 20px 20px 10px 20px;  
+  
+}
+
+.subscription h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.subscription span {
+  opacity: 0.5;
+  font-size: 1rem;
+  font-weight: 400;  
+}
+
+.subscription p {
+  margin-bottom: 8px;
+}
+
+.subscription .text {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.subscription .btn {
+  text-align: center;
+  margin: auto;
+}
+
+.subscription button {
+  width: 100%;
+  padding: 13px;
+  color:white;
+  background-color:hsl(71, 73%, 54%);
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 4px 8px 12px hsl(179, 62%, 32%);
+}
+
+.subscription button:hover {
+  background-color:hsl(71, 73%, 45%);
+  transition: 0.5s;
+}
+
+.why-us {
+  background-color:hsl(179, 62%, 43%);
+  opacity: 0.7;
+  color: hsl(204, 43%, 93%);
+  padding: 20px 20px 10px 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.why-us h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.why-us p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  line-height: 20px;
+  margin-bottom: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+    
+  .container {
+    max-width: 1440px;
+    width: 700px;
+    margin: auto;       
+  }
+
+  .hero {
+    height: 45%;
+    padding: 40px;    
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .attribution {
+    margin-top: 10px;
+  }
+
+  .subscription, .why-us {
+    padding: 40px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h4 {
+    font-size: 1.3rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+    width: 90%;
+  }
+} 
