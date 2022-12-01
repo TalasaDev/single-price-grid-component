@@ -1,8 +1,6 @@
-# single-price-grid-component
-Frontend Mentor NEWBIE challenge single-price-grid-component
+# Frontend Mentor - Single-price-grid-component solution
+NEWBIE - FREE - HTML& CSS challenge 
 
-
-# Frontend Mentor - Single price grid component solution
 
 This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -20,7 +18,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -33,13 +30,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![image](https://user-images.githubusercontent.com/119393713/204953185-e6a53cff-1cd1-47ed-94a1-b9444e48f868.png)
+![image](https://user-images.githubusercontent.com/119393713/204953028-c750dfe1-6496-452e-970b-087a3575b60c.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/TalasaDev/single-price-grid-component.git](https://your-solution-url.com)
+- Live Site URL: [https://talasadev.github.io/single-price-grid-component/](https://your-live-site-url.com)
 
 ## My process
 
@@ -101,9 +98,9 @@ Still much to learn about layout and positioning of the elements using CSS prope
 
 ## Acknowledgments
 
-There are no words to express the gratitude and respect I have for every single one of the people, individuals or organisations, that enlight my way and help me to become the best version of myself. 
+There are no words to express the gratitude and respect I have for every single one of the people, individuals or organisations, that enlight my path with wondeful, fully accessible and free learning resources.  
 
-#freecodecamp, #w3schools, #mdn-mozilla docs, #frontend mentor, YouTube Channels #coder coder, and more.
+#freecodecamp, #w3schools, #mdn-mozilla.docs, #frontend mentor, #100 days CSS, YouTube Channels #codercoder, and more.
 
 
 
