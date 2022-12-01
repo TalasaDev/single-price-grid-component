@@ -18,21 +18,19 @@
 
 /*  MOBILE DESIGN FIRST */
 
-body {
-  width: 375px;
-  max-width: 400px;
-  margin: auto;
+body {  
+  background-color:hsl(204, 43%, 93%);
 }
 
 .attribution {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .container {
   padding: 50px 30px;
   background-color:hsl(204, 43%, 93%);
-  max-width: 768px;
-  width: 400px;
+  max-width: 400px;
+  width: 375px;
   margin: auto;  
 }
 
@@ -51,14 +49,21 @@ body {
   font-weight: 700;
 }
 
-.hero h4 {
+.hero h2 {
   color:hsl(71, 73%, 54%);
   margin-bottom: 20px;
+  font-size: 1rem;
 }
 
 .hero p {
-  opacity: 0.4;
+  opacity: 0.3;
   line-height: 25px;
+  font-size: 0.9rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .price {
@@ -68,18 +73,19 @@ body {
 }
 
 .price span {
-  margin-left: 10px;
+  margin-left: 10px;  
 }
 
 .subscription {
   background-color:hsl(179, 62%, 43%);
   color: white;
-  padding: 20px 20px 10px 20px;  
+  padding: 20px 25px 8px 25px;  
   
 }
 
-.subscription h2 {
+.subscription h3 {
   font-size: 1.2rem;
+  margin-top: 8px;
   margin-bottom: 20px;
 }
 
@@ -89,12 +95,8 @@ body {
   font-weight: 400;  
 }
 
-.subscription p {
-  margin-bottom: 8px;
-}
-
 .subscription .text {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 30px;
 }
 
@@ -112,25 +114,27 @@ body {
   border: none;
   border-radius: 5px;
   margin-bottom: 15px;
-  box-shadow: 4px 8px 12px hsl(179, 62%, 32%);
+  box-shadow: 4px 8px 12px hsl(179, 62%, 37%);
 }
 
 .subscription button:hover {
-  background-color:hsl(71, 73%, 45%);
-  transition: 0.5s;
+  color:hsl(71, 73%, 54%);
+  background-color:hsl(204, 43%, 93%);
+  transition: 0.3s;
 }
 
 .why-us {
   background-color:hsl(179, 62%, 43%);
-  opacity: 0.7;
+  opacity: 0.8;
   color: hsl(204, 43%, 93%);
-  padding: 20px 20px 10px 20px;
+  padding: 20px 25px 10px 25px;
   border-radius: 0 0 5px 5px;
 }
 
 .why-us h3 {
   font-size: 1.2rem;
   margin: 0;
+  margin-top: 8px;
 }
 
 .why-us p {
@@ -141,22 +145,76 @@ body {
   margin-bottom: 18px;
 }
 
-@media only screen and (min-width: 768px) {
-    
-  .container {
+/* DESKTOP DESIGN */
+
+@media only screen and (min-width: 600px) {
+   
+  .body {
+    width: 100%;
     max-width: 1440px;
-    width: 700px;
-    margin: auto;       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .container {
+    max-width: 700px;
+    width: 100%;
+    margin: auto; 
   }
 
   .hero {
     height: 45%;
-    padding: 40px;    
+    padding: 40px;   
+    border-radius: 8px 8px 0 0; 
+  }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+    /*width: 90%;*/
+  }
+
+  .subscription {
+    border-radius: 0 0 0 8px;
+  }
+
+  .subscription span {
+    font-size: 1.1rem;
+  }
+
+  .subscription .text {
+    font-size: 1.1rem;
+    margin-right: -5px;
+  }
+
+  .subscription .btn {
+    margin-right: -5px;
+  }
+
+  .why-us {
+    border-radius: 0 0 8px 0;
+  }
+
+  .why-us p {
+    font-size: 1rem;
+    letter-spacing: -0.7px;
   }
 
   .content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border-radius: 0 0 10px 10px;
   }
 
   .attribution {
@@ -164,19 +222,8 @@ body {
   }
 
   .subscription, .why-us {
-    padding: 40px;
-  }
+    padding: 40px 40px 20px 40px;
 
-  .hero h1 {
-    font-size: 2rem;
   }
-
-  .hero h4 {
-    font-size: 1.3rem;
-  }
-
-  .hero p {
-    font-size: 1.1rem;
-    width: 90%;
-  }
+  
 } 
