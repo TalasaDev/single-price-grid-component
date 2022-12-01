@@ -101,7 +101,7 @@ Still much to learn about layout and positioning of the elements using CSS prope
 
 ## Acknowledgments
 
-There is no words to express the gratitude and respect I have for every single one of the people, individuals or organisations, that enlight my way and help me to become the best version of myself. 
+There are no words to express the gratitude and respect I have for every single one of the people, individuals or organisations, that enlight my way and help me to become the best version of myself. 
 
 #freecodecamp, #w3schools, #mdn-mozilla docs, #frontend mentor, YouTube Channels #coder coder, and more.
 
