@@ -54,7 +54,7 @@ Users should be able to:
 
 ### What I learned
 
-In this challenge I focus on accuracy representation of the original UX/UI design into the development of the project. For the layout, I used grid display with 1fr for the mobile design and 1fr 1fr for the desktop design.  
+In this challenge I focus on the accurated representation of the original UX/UI design into the development of the project. For the layout, I used grid display with 1fr for the mobile design and 1fr 1fr for the desktop design.  
 
 One of the tricky parts of the project was the $29 price aligned with the "per month" text:
 
