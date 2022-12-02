@@ -98,9 +98,7 @@ Still much to learn about layout and positioning of the elements using CSS prope
 
 ## Acknowledgments
 
-There are no words to express the gratitude and respect I have for every single one of the people, individuals or organisations, that enlight my path with wondeful, fully accessible and free learning resources.  
 
-#freecodecamp, #w3schools, #mdn-mozilla.docs, #frontend mentor, #100 days CSS, YouTube Channels #codercoder, and more.
 
 
 
